@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import  Home from './pages/Home'
 import { ThemeProvider } from './components/ui/theme-provider'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
-import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom'
-import { Button } from "@/components/ui/button"
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 
 function App() {
